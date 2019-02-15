@@ -91,7 +91,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bottomNav.addItemNav(new ItemNav(this, R.mipmap.ic_launcher, "threeblar").addColorAtive(R.color.colorAccent));
         bottomNav.addItemNav(new ItemNav(this, R.mipmap.ic_launcher, "four4").addColorAtive(R.color.colorAccent));
         bottomNav.addItemNav(new ItemNav(this, R.mipmap.ic_launcher, "fivestars").addColorAtive(R.color.colorAccent));
-        bottomNav.addItemNav(new ItemNav(this, R.mipmap.ic_launcher, "sixstars").addColorAtive(R.color.colorAccent));
         bottomNav.build();
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
